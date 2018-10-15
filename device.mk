@@ -331,7 +331,9 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.safailnet.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 # Recovery
 PRODUCT_PACKAGES += \
