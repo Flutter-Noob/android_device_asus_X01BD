@@ -124,6 +124,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_uxe=0 \
     vendor.iop.enable_prefetch_ofr=0
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=SonalSingh
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true \
