@@ -198,6 +198,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.vc_call_vol_steps=11 \
     ro.telephony.default_network=20,20 \
     telephony.lteOnCdmaDevice=1
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Radio - IMS
 PRODUCT_PROPERTY_OVERRIDES += \
