@@ -741,4 +741,7 @@
     <!-- Whether to intercept inputs on screen off. -->
     <bool name="config_enableKeyHandler">true</bool>
 
+    <!-- Flashlight on power button -->
+    <integer name="config_flashlightProximityTimeout">-1</integer>
+
 </resources>
