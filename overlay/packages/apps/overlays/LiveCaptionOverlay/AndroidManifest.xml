@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        android:compileSdkVersion="29"
+        android:compileSdkVersionCodename="10"
+        android:versionCode="1"
+        android:versionName="1.0" 
+        package="com.xda.livecaption.overlay"
+        platformBuildVersionCode="28"
+        platformBuildVersionName="9">
+	<uses-sdk android:minSdkVersion="28"
+                  android:targetSdkVersion="28" />
+	<application android:extractNativeLibs="false" />
+	<overlay android:isStatic="true"
+                 android:priority="1"
+                 android:targetPackage="android" />
+</manifest>

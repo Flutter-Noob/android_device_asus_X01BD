@@ -161,6 +161,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/excluded-input-devices.xml:system/etc/excluded-input-devices.xml
 
+# Live Captions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-google-dpc.xml:system/product/etc/permissions/privapp-permissions-google-dpc.xml \
+    $(LOCAL_PATH)/configs/pixel_experience_2019.xml:system/product/etc/sysconfig/pixel_experience_2019.xml
+
+PRODUCT_PACKAGES += \
+    LiveCaptionOverlay \
+    DevicePersonalizationServices
+
 # GPS / Location
 PRODUCT_PACKAGES += \
     libcurl \
