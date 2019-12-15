@@ -18,4 +18,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X01BD-userdebug
+    du_X01BD-userdebug
