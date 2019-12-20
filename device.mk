@@ -128,7 +128,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libxml2 \
-    Snap
+    Snap \
+    GalleryGoPrebuilt
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
