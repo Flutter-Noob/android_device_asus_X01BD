@@ -153,10 +153,10 @@ PRODUCT_PACKAGES += \
     Doze
 
 # FM
-PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+#PRODUCT_PACKAGES += \
+#    FM2 \
+#    libqcomfm_jni \
+#    qcom.fmradio
 
 # Excluded Input devices
 PRODUCT_COPY_FILES += \
