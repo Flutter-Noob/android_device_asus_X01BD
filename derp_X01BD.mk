@@ -28,7 +28,8 @@ TARGET_MINIMAL_APPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
-DERP_BUILDTYPE := Unofficial
+#Derpfest Official
+DERP_BUILDTYPE := Official
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
