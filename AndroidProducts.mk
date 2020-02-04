@@ -18,4 +18,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/derp_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_X01BD-userdebug
+  derp_X01BD-userdebug
