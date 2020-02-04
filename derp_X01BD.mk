@@ -22,14 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Havoc-OS stuff
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+
 #Gapps
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
 TARGET_GAPPS_ARCH := arm64
-TARGET_MINIMAL_APPS := true
-TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
+endif
 
 #Derpfest Official
 DERP_BUILDTYPE := Official
+
+#Derpfest Customizations
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
