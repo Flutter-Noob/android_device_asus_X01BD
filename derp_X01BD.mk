@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 #Gapps
+CURRENT_BUILD_TYPE := gapps
 TARGET_GAPPS_ARCH := arm64
-TARGET_MINIMAL_APPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
