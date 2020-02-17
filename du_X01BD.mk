@@ -22,8 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Havoc-OS stuff
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-
-
+#Make it Official
+DU_BUILD_TYPE := OFFICIAL
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
